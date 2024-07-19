@@ -9,19 +9,13 @@ Chivo is a powerful voice assistant created using Python. It can perform a varie
 - Email sending capability
 - Weather updates
 - Customizable commands
-- Integration with various APIs
-
-## Demo
-
-Check out a demo video [here](https://example.com/demo).
+- Simple GUI interface
 
 ## Screenshots
 
 ### Main Interface
-![Main Interface](./images/main-interface.png)
 
-### Voice Command in Action
-![Voice Command](./images/voice-command.png)
+![GUI Image](https://github.com/user-attachments/assets/fa5d7134-f3ba-4fb8-9a26-d7382ab5d3a9)
 
 ## Getting Started
 
@@ -35,8 +29,8 @@ Make sure you have Python installed. You can download it from [python.org](https
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/chivo-voice-assistant.git
-   cd chivo-voice-assistant
+   https://github.com/uidesigner-Priya/Chivo__Your_Personal_Voice_Assistant.git
+   cd Chivo__Your_Personal_Voice_Assistant
    
 2. Create and activate a virtual environment:
    ```sh
@@ -45,26 +39,17 @@ Make sure you have Python installed. You can download it from [python.org](https
 
 3. Install and import the required packages:
    ```sh
-   from tkinter import * 
-   pip install translate
+   pip install -r requirements.txt
    ```
    
-   > [!NOTE]
-   > Make sure that Tkinter is installed with standard python installation. You can verify this by trying to import tkinter in a Python script or interactive session:
-     ```sh
-     import tkinter
-     print(tkinter.TkVersion)
-   ```
-     
-    > [!NOTE]
-    > If tkinter is not available or you encounter an import error, you might need to reinstall Python or
-      ensure that tkinter was included during the installation process.
-
 4. Run the main script to start the GUI Translator:
-   Language translator with GUI.py
+   chivo.py
 
 ## Folder Structure
 ```
-├── Language translator with GUI.py
+├── chivo.py
+├── requirements.txt
+├── images
+│   └── background.png
 └── README.md
 ```
