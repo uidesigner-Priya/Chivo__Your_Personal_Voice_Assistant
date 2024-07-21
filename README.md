@@ -43,6 +43,7 @@ Make sure you have Python installed. You can download it from [python.org](https
    ```
    
 4. Run the main script to start the GUI Translator:
+   ```sh
    chivo.py
 
 ## Folder Structure
